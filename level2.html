@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML level 2</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border="1">
+        <thead>
+            <th>Number</th>
+            <th>Color</th>
+            <th>Country</th> 
+        </thead>  <!-- we can build table without thead-->
+        <tr>   <!-- tr->table row -->
+            <td>250</td>    <!-- table cells -->
+            <td>Red</td>
+            <td>India</td>
+        </tr>   
+        <tr>
+            <td>100</td>
+            <td>Blue</td>
+            <td>France</td>
+        </tr>
+    </table>
+    <table border="1">
+        <thead>
+            <th>Country Name</th>
+            <th>Country Flag</th>
+            <th>GDP(Millions of USD)</th>
+        </thead>
+        <tr>
+            <td>USA</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt=""></td>
+            <td>18,561,930</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt=""></td>
+            <td>2,250,990</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png" alt=""></td>
+            <td>2,649,890</td>
+        </tr>
+    </table>
+    <h2>Input types in html</h2>
+    <form >
+        <h3>Log in</h3>
+        <h4>Please Input your email and password</h4>
+        <input type="email" name="user email" value="email here">
+        <input type="password" name="password" value="">
+        <input type="submit" value="Submit">
+        <input type="color" name="" id="">
+    </form>
+    <h3>Labels</h3>
+    <form >
+        <p>Enter Text</p>
+        <label >
+            Enter Text:
+            <input type="text" name="user input" value="one">
+        </label>
+        <label >
+            Enter Text:
+            <input type="text" name="user input" value="two">
+        </label>
+        <input type="text" name="user input" value="">
+        <input type="submit" value="Submit">
+    </form>
+    <!-- Using for in label for removing repetitive work -->
+    <form>
+        <label for="userinput">Enter Input:</label>
+        <input id="userinput" type="text" placeholder="Enter Text Here" required>
+    </form>
+    <!-- Various input methodsfor forms -->
+    <h1>Hotel Feedback Form</h1>
+    <form method="GET">
+        <h3>Are you from inside India? Or Outside India?</h3>
+
+        <label for="InIndia">Inside: </label>
+        <input id="InIndia"type="radio"name="loc" value="inside">
+        <label for="OutIndia">Outside: </label>
+        <input id="OutIndia"type="radio"name="loc" value="outside">
+
+        <h2>How was your service?</h2>
+        <select name="stars" >
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <h2>Any other feedback?</h2>
+        <textarea name="mytext" id="" cols="80" rows="10"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+     
+</body>
+</html>
