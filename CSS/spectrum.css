@@ -1,0 +1,35 @@
+h3{
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+
+td{
+    height: 200px;
+    width: 150px;
+    border: 6px solid white;
+}
+
+#col1{
+    background-color: #264653;
+}
+
+#col2{
+    background-color: #2a9d8f;
+}
+
+#col3{
+    background-color: #e9c46a;
+}
+
+#col4{
+    background-color: #f4a261;
+}
+
+#col5{
+    background-color: #e76f51;
+}
+
+.table{
+    margin: auto;
+} 

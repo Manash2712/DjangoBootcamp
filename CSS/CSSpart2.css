@@ -1,0 +1,21 @@
+body{
+    background: url(https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+}
+
+div{
+    background-color: blue;
+    border-color: red;
+    border-width: 5px;
+    border-style: double;
+}
+
+/* Border in CSS it requires 3 elements border color, width and style */
+
+p{
+    color: greenyellow;
+}
+
+span{
+    background: red;
+    color: black;
+}

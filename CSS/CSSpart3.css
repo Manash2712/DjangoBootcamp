@@ -1,0 +1,31 @@
+.FirstDiv{
+    color: Blue;
+}
+
+.SecondDiv{
+    color: red;
+}
+
+#singledout{
+    color: greenyellow;
+    text-decoration: line-through;
+}
+
+/* json siblings */
+
+h3 + ul{
+    border: 4px dotted darkviolet;
+    /* this will border all unordered list which are next to heading 3 */
+}
+
+/* Descendant selector  this will change all the things in tag 2 which are inside tag 1*/
+
+li a{
+    color: red;
+}
+
+/* Attribute */
+li a[href="www.npr.org"]{
+    color: blue;
+    border: 5px solid orange ;
+}
